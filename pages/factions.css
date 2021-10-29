@@ -1,0 +1,173 @@
+@font-face {
+	font-family: IMFellDWPica;
+	src: url(../IMFellDWPica-Regular.ttf);  }
+
+
+body {
+    color:black;
+    background-color:white;
+    background-image: url(../images/background.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+    font-family: IMFellDWPica;  
+}
+        
+        .container{
+            width: 1200px;
+            height: 50px;   }
+    
+            header{
+               display: flex;
+               height: 100px;
+               border-radius: 10px;
+               background: rgba(0, 0, 0, 0.9);
+               border-bottom: 2px solid black;
+               padding-left: 10px;
+               padding-right: 10px;    
+            }
+
+            .titre{
+                margin: auto;
+                color: #FFFFFF;
+                text-align: center; 
+            }
+    
+    nav{ 
+        width: 1200px;
+        height: 50px;
+        background-color: black;
+        margin: 10px auto 50px auto;
+        opacity: 0.80;  
+    }
+    
+    section{
+        margin: 30px auto auto auto;
+        width: 1000px;
+        height: auto;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+        padding: 40px 100px 10px 100px;
+    }
+    
+    .a{
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        opacity: 0;
+    }
+    
+    .titre{
+        margin: auto;
+        color: #FFFFFF;
+        text-align: center;    
+    }
+    
+    .menu {
+      list-style-type: none;
+      margin: 0;
+      padding-left: 100px;
+      padding-right: 100px;
+      overflow: hidden;
+      background-color: #333;
+      border-radius: 5px;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: rgb(255, 255, 255);	
+      text-align: center;
+      padding: 20px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: #111;
+    }
+
+
+    .texte{
+        color: #FFFFFF;
+        text-align: center;
+    
+    }
+
+
+
+    .txtFacImgFac{
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+    }
+    
+        .txtFac{
+            display: flex;
+            width: 1000px;
+            height: 80px;
+            justify-content: space-around;
+            flex-direction: row;
+
+        }
+        .imgFac{
+            display: flex;
+            width: 1000px;
+            height: 100px;
+            justify-content: space-around;
+            flex-direction: row;
+            margin-top: 40px;
+            padding-top: 30px;
+        }
+
+    .nomFac{
+        width: 96px;
+        height: 20px;
+        text-align: center;
+    }
+
+    
+
+    .maraudeurs{
+        width: 960px;
+        height: auto;
+        text-align: center;
+        margin: 40px auto 20px auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+
+    }
+
+    .ombres{
+        width: 960px;
+        height: auto;
+        text-align: center;
+        margin: 50px auto 40px auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+
+    }
+
+    .engages{
+        width: 960px;
+        height: auto;
+        text-align: center;
+        margin: 50px auto 20px auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        
+    }
+
