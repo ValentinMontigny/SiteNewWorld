@@ -13,12 +13,22 @@ body {
 }
         
         .container{
-            width: 1200px;
-            height: 50px;   }
+            width: 100%;
+            height: auto;
+
+            display: flex;
+            /* justify-content: center; */
+            /* align-items: center;  */
+            flex-direction: column;  
+          }
     
             header{
                display: flex;
-               height: 100px;
+               justify-content: space-between;
+               align-items: center; 
+
+               height: auto;
+               margin:auto auto auto auto;
                border-radius: 10px;
                background: rgba(0, 0, 0, 0.9);
                border-bottom: 2px solid black;
@@ -33,21 +43,45 @@ body {
             }
     
     nav{ 
-        width: 1200px;
-        height: 50px;
-        background-color: black;
-        margin: 10px auto 50px auto;
-        opacity: 0.80;  
+      width: 90%;
+      height: 50px;
+      background-color: black;
+      margin: 10px auto 50px auto;
+      opacity: 0.80;  
+      border-radius: 5px;
+
     }
     
     section{
-        margin: 30px auto auto auto;
-        width: 1000px;
+        margin: auto auto 20px auto;
+        width: 80%;
         height: auto;
         background: rgba(0, 0, 0, 0.5);
         border-radius: 10px;
         color: rgb(255, 255, 255);
         padding: 40px 100px 10px 100px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    footer{
+
+      width: 85%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+      background: rgba(0, 0, 0, 0.9);
+    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+      color: azure;
+    
     }
     
     .a{
@@ -55,6 +89,7 @@ body {
         height: 100px;
         background-color: black;
         opacity: 0;
+        
     }
     
     .titre{
@@ -94,6 +129,23 @@ body {
         color: #FFFFFF;
         text-align: center;
     
+    }
+
+    .i{
+      height: 80px;
+      width: 160px;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .fondTable{
+      height: auto;
+      width: auto;
+      background-color: rgba(0, 0, 0, 0.9);
+
+      margin-top: 40px;
     }
 
 

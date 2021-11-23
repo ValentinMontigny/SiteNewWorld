@@ -1,41 +1,44 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="utf-8" />
-    <title>New World - Carte</title>
-    <link rel="stylesheet" href="carte.css">
-    <script src='carte.js'></script>
-    <link rel="icon" href="../images/logo.jpg" />
+	<head>
+    	<meta charset="utf-8" />
 
-</head>
-<body>
+    	<title>New World - Carte</title>
+
+    	<link rel="stylesheet" href="carte.css">
+    	<link rel="icon" href="../images/logo.jpg" />
+	</head>
+
+	<body>
         <div ="container">
-			<header>
+
+			<a name="haut"><header>
 				<img src="../images/logo.jpg" alt="logo">
 				<h1 class="titre">New World</h1>
-				<div class="a"></div>
-				
-			</header>
+				<div class="a"></div>				
+			</header></a>
+
 			<nav>
 				<ul class="menu">
 					<li><a href="../index.html">Acceuil</a></li>
 					<li><a href="carte.html">Carte</a></li>
 					<li><a href="armes.html">Armes</a></li>
 					<li><a href="factions.html">Factions</a></li>
-					<li style="float:right"><a class="active" href="#about">A Propos</a></li>
+					<li style="float:right"><a class="active" href="Apropos.html">A Propos</a></li>
 				</ul>
 			</nav>
 			
             <section>
+				<h1>LA CARTE</h1>
 
-                <h1 class="titre" style="margin-bottom: 40px;">Map New World</h1>
-
-
-                <img id="imgZoom" width="400px" height="400px"  onmousemove="zoomIn(event)" onmouseout="zoomOut()" src="../images/carte.jpg" alt="new-world-map">
-                <div id="overlay" onmousemove="zoomIn(event)"></div>
-
+				<img class="img" src="../images/carte.jpg" alt="carte">
             </section>
 
-</body>
+			<footer>
+				<a class="slide" href="#haut" style="color:azure"><h3>Retour en haut de la page</h3></a>
+			</footer>
+		</div>
+
+	</body>
+
 </html>

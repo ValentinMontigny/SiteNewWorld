@@ -13,7 +13,7 @@ font-family: IMFellDWPica;
 }
 
 .container{
-	width: 1200px;
+	width: 100%;
 	height: 50px;
 	
 }
@@ -25,38 +25,7 @@ header{
 	background: rgba(0, 0, 0, 0.9);
 	border-bottom: 2px solid black;
 	padding-left: 10px;
-	padding-right: 10px;
-
-	
-}
-
-nav{
-
-	width: 1200px;
-	height: 50px;
-	background-color: black;
-	margin: 10px auto 50px auto;
-	opacity: 0.80;
-	
-}
-
-section{
-		margin: 30px auto auto auto;
-		width: 1000px;
-		height: 2000px;
-		background: rgba(0, 0, 0, 0.5);
-		border-radius: 10px;
-		color: FFFFFF;
-		padding: 30px 100px 10px 100px;
-
-}
-
-.a{
-		width: 100px;
-		height: 100px;
-		background-color: black;
-		opacity: 0;
-
+	padding-right: 10px;	
 }
 
 .titre{
@@ -67,53 +36,81 @@ section{
 	
 }
 
+nav{
+
+	width: 90%;
+	height: 50px;
+	background-color: black;
+	margin: 10px auto 50px auto;
+	opacity: 0.80;
+	border-radius: 5px;
+
+	
+}
+
+.a{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	opacity: 0;
+
+}
+
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding-left: 100px;
-  padding-right: 100px;
-  overflow: hidden;
-  background-color: #333;
-  border-radius: 5px;
+list-style-type: none;
+margin: 0;
+padding-left: 100px;
+padding-right: 100px;
+overflow: hidden;
+background-color: #333;
+border-radius: 5px;
 }
 
 li {
-  float: left;
+float: left;
 }
 
 li a {
-  display: block;
-  color: rgb(255, 255, 255);	
+display: block;
+color: rgb(255, 255, 255);	
 
-  text-align: center;
-  padding: 20px 16px;
-  text-decoration: none;
+text-align: center;
+padding: 20px 16px;
+text-decoration: none;
 }
 
 li a:hover {
-  background-color: #111;
+background-color: #111;
 }
 
 
+section{
+		margin: 30px auto 20px auto;
+        width: 80%;
+		height: auto;
+		background: rgba(0, 0, 0, 0.5);
+		border-radius: 10px;
+		color: white;
+		padding: 30px 100px 10px 100px;
+		text-align: center;
 
+}
 
-.im{
+footer{
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0.9);
+
 	display: flex;
-	justify-content: space-around;
-	opacity: 1;
-	margin-top: 100px;
-	margin-bottom: 100px;
+	justify-content: center;
+	align-items: center;
+
+	color: azure;
+
 }
 
-.map{
-    width: 800px;
-}
-
-#overlay{
-    border:1px solid black;
-    width:400px;
-    height: 400px;
-    display:inline-block;
-    background-image:url("../images/carte.jpg");
-    background-repeat:no-repeat;
+.img{
+	height: 80%;
+	width: 80%;
+	
+	border: 3px solid black;
 }

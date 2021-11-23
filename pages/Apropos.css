@@ -50,6 +50,9 @@ body {
         border-radius: 10px;
         color: rgb(255, 255, 255);
         padding: 40px 100px 10px 100px;
+
+       text-align: center;
+        
     }
 
     footer{
@@ -86,6 +89,8 @@ body {
       background-color: #333;
       border-radius: 5px;
     }
+
+  
     
     li {
       float: left;
@@ -109,84 +114,10 @@ body {
         text-align: center;
     
     }
-
-
-
-    .txtFacImgFac{
-        background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 10px;
-        margin-bottom: 30px;
-    }
-    
-        .txtFac{
-            display: flex;
-            width: 1000px;
-            height: 80px;
-            justify-content: space-around;
-            flex-direction: row;
-
-        }
-        .imgFac{
-            display: flex;
-            width: 1000px;
-            height: 100px;
-            justify-content: space-around;
-            flex-direction: row;
-            margin-top: 40px;
-            padding-top: 30px;
-        }
-
-    .nomFac{
-        width: 96px;
-        height: 20px;
-        text-align: center;
+    #photo{
+        width: 20%;
+        height: 20%;
+        border: 3px solid black;
     }
 
-    
-
-    .maraudeurs{
-        width: 960px;
-        height: auto;
-        text-align: center;
-        margin: 10px auto 20px auto;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 20px;
-        padding-right: 20px;
-        border-radius: 10px;
-        background-color: rgba(0, 0, 0, 0.5);
-
-    }
-
-    .ombres{
-        width: 960px;
-        height: auto;
-        text-align: center;
-        margin: 30px auto 40px auto;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
-        border-radius: 10px;
-        background-color: rgba(0, 0, 0, 0.5);
-
-    }
-
-    .engages{
-        width: 960px;
-        height: auto;
-        text-align: center;
-        margin: 30px auto 20px auto;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        padding-left: 20px;
-        padding-right: 20px;
-        border-radius: 10px;
-        background-color: rgba(0, 0, 0, 0.5);
-        
-    }
-
-    p{
-        font-size: 18px;
-    }
-
+   
